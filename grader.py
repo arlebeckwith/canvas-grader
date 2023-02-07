@@ -49,7 +49,7 @@ def threadedfunc(student, sub):
     print('\n')
     print(student.name)
     helper.print_rubric(rubric)
-    # sub.edit(**{'rubric_assessment':rubric})
+    # sub.edit(**{'rubric_assessment':rubric}) # Uncomment this to upload to canvas
 
 
 API_URL = "https://canvas.instructure.com/"
